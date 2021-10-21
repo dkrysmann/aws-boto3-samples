@@ -3,6 +3,7 @@ import os
 import boto3
 import time
 
+
 def upload_delete():
     '''Create S3 path based on date, upload to S3 and delete local parquet
         Resultoing in S3 path like s3://piaware/temp/2021/10/21/16/29_flights.parq

@@ -41,7 +41,7 @@ params = {
     'region': 'eu-central-1',
     'database': 'default',
     'workgroup': 'primary',
-    'OutputLocation': 's3://aws-athena-query-results-000290283155-eu-central-1/jupyter/',
+    'OutputLocation': 's3://aws-athena-query-results-eu-central-1/jupyter/',
     'path': 'jupyter/envy/',
     'query': 'SELECT * FROM "default"."flights" limit 10;'
 }
